@@ -41,6 +41,7 @@ Module 5: Spelling Suggestions
 
 2: Implemented method public List<String> suggestions(String word, int numSuggestions) in NearbyWords.
 
+Final Course Grade: 100%
 
 
 
