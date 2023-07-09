@@ -25,13 +25,21 @@ Module 3: Implementing and Testing a Doubly Linked List
 
 4: Implemented methods public int size(), public void add(int index, E element), public E remove(int index), public E set(int index, E element), in MyLinkedList.
 
-Module 4: Spell checking and spelling suggestion.
+Module 4: Spell checking and autocomplete.
 
 1: Implemented the DictionaryLL class which implements the Dictionary interface.
 
 2: Implemented the DictionaryBST class which implements the Dictionary interface.
 
-3: Compared the running time of each data structure in the worst case scenario where a word is not in the dictionary.
+3: Compared the running time of each data structure in the worst case scenario where a word is not in the dictionary using DictionaryBenchmarking class.
+
+4: *Implementing Trie Data Structure* Implemented methods public boolean addWord(String word), public int size(), public boolean isWord(String s), public List<String> predictCompletions(String prefix, int numCompletions) in AutoCompleteDictionaryTrie.
+
+Module 5: Spelling Suggestions
+
+1: Implemented methods public void substitution(String s, List<String> currentList, boolean wordsOnly), public void insertions(String s, List<String> currentList, boolean wordsOnly ), public void deletions(String s, List<String> currentList, boolean wordsOnly ) in NearbyWords.
+
+2: Implemented method public List<String> suggestions(String word, int numSuggestions) in NearbyWords.
 
 
 
